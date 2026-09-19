@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Belajar HTML dan CSS bersama Jacinda." />
+  <title>Belajar HTML & CSS — Jacinda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#beranda"><span>&lt;/&gt;</span> Code<span>Start</span></a>
+    <button class="menu-toggle" aria-label="Buka menu">☰</button>
+    <nav class="nav-links">
+      <a href="#materi">Materi</a><a href="#roadmap">Roadmap</a><a href="#tentang">Tentang</a>
+      <a class="nav-cta" href="#mulai">Mulai Belajar <span>→</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">✦ Belajar coding jadi menyenangkan</p>
+        <h1>Bangun website<br /><em>pertamamu.</em></h1>
+        <p class="hero-text">Pelajari HTML dan CSS dari dasar hingga bisa membuat website yang keren, responsif, dan siap dipamerkan.</p>
+        <div class="hero-actions" id="mulai"><a class="button primary" href="#materi">Mulai Belajar <span>→</span></a><a class="text-link" href="#roadmap">Lihat roadmap <span>↗</span></a></div>
+        <div class="student-note"><div class="avatar">J</div><div><strong>Dibuat untuk Jacinda</strong><small>Teman belajar coding kamu</small></div></div>
+      </div>
+      <div class="code-card" aria-label="Contoh kode HTML">
+        <div class="window-bar"><i></i><i></i><i></i><span>index.html</span></div>
+        <pre><code><b>&lt;!DOCTYPE</b> html<b>&gt;</b>
+<b>&lt;html</b> lang=<mark>"id"</mark><b>&gt;</b>
+  <b>&lt;body&gt;</b>
+    <b>&lt;h1&gt;</b>Halo, dunia!<b>&lt;/h1&gt;</b>
+    <b>&lt;p&gt;</b>Website pertamaku.<b>&lt;/p&gt;</b>
+  <b>&lt;/body&gt;</b>
+<b>&lt;/html&gt;</b></code></pre>
+        <div class="code-badge">● Kode pertamamu dimulai di sini</div>
+      </div>
+    </section>
+
+    <section id="materi" class="learn section-wrap">
+      <div class="section-heading"><div><p class="eyebrow">Materi pilihan</p><h2>Semua yang kamu<br /><em>butuhkan untuk mulai.</em></h2></div><p class="section-description">Materi disusun bertahap dan praktis. Tidak perlu pengalaman sebelumnya.</p></div>
+      <div class="cards">
+        <article class="topic-card html-card"><div class="topic-icon">&lt;/&gt;</div><span class="level">01 — PEMULA</span><h3>Dasar-dasar HTML</h3><p>Kenali struktur halaman, tag, elemen, atribut, dan cara menyusun konten website.</p><a href="#html-materi">Pelajari HTML <span>→</span></a></article>
+        <article class="topic-card css-card"><div class="topic-icon">✦</div><span class="level">02 — PEMULA</span><h3>Styling dengan CSS</h3><p>Ubah halaman biasa menjadi tampilan menarik dengan warna, font, layout, dan animasi.</p><a href="#css-materi">Pelajari CSS <span>→</span></a></article>
+        <article class="topic-card practice-card"><div class="topic-icon">⚡</div><span class="level">03 — PRAKTIK</span><h3>Bangun proyek</h3><p>Gabungkan ilmu yang kamu pelajari dan buat landing page pertamamu sendiri.</p><a href="#proyek">Lihat proyek <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section id="roadmap" class="roadmap section-wrap"><div class="section-heading"><div><p class="eyebrow">Langkah belajar</p><h2>Roadmap yang<br /><em>jelas dan terarah.</em></h2></div></div><div class="steps"><div class="step"><b>01</b><div><h3>Kenali HTML</h3><p>Pelajari kerangka dan struktur dasar sebuah website.</p></div></div><div class="step"><b>02</b><div><h3>Hidupkan dengan CSS</h3><p>Atur tampilan, layout, dan responsivitas halaman.</p></div></div><div class="step"><b>03</b><div><h3>Buat proyekmu</h3><p>Praktik langsung dengan membuat website impianmu.</p></div></div></div></section>
+
+    <section id="html-materi" class="quick-guide section-wrap"><div><p class="eyebrow">Cheat sheet</p><h2>HTML adalah<br /><em>kerangka website.</em></h2><p>HTML (HyperText Markup Language) digunakan untuk menyusun konten halaman web.</p></div><div class="tag-list"><span>&lt;h1&gt; Judul</span><span>&lt;p&gt; Paragraf</span><span>&lt;a&gt; Tautan</span><span>&lt;img&gt; Gambar</span><span>&lt;ul&gt; Daftar</span><span>&lt;form&gt; Formulir</span></div></section>
+    <section id="css-materi" class="quick-guide css-guide section-wrap"><div><p class="eyebrow">Cheat sheet</p><h2>CSS membuatnya<br /><em>terlihat indah.</em></h2><p>CSS (Cascading Style Sheets) mengatur warna, ukuran, jarak, dan tata letak elemen.</p></div><div class="tag-list"><span>color: warna</span><span>font-size: ukuran</span><span>margin: jarak luar</span><span>padding: jarak dalam</span><span>display: flex</span><span>responsive: adaptif</span></div></section>
+  </main>
+
+  <footer id="tentang"><div class="section-wrap footer-inner"><a class="logo" href="#beranda"><span>&lt;/&gt;</span> Code<span>Start</span></a><p>Belajar. Berlatih. Berkarya.</p><small>© 2026 CodeStart untuk Jacinda</small></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
